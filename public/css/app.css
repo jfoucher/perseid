@@ -1,0 +1,246 @@
+@import "../fonts/bodoni/stylesheet.css";
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic|Droid+Sans:400,700);
+
+body {
+    font-family: "Droid Serif",Georgia,Times,"Times New Roman",serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header {
+    margin: 0;
+}
+.header-title {
+    position: relative;
+    width: 100%;
+    height: 403px;
+    background: transparent;
+
+    text-align: center;
+    z-index: 9;
+}
+header .cover-image {
+    background: url('/img/header.jpg') center center no-repeat #001523;
+    padding: 0;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 473px;
+}
+
+
+header h1, header h2 {
+
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+
+    font-family: "Droid Serif",Georgia,Times,"Times New Roman",serif;
+}
+header h1{
+    /*margin-top: 50px;*/
+    font-size: 40px;
+    line-height: 54px;
+
+    padding-bottom: 1em;
+}
+header h2 {
+    padding-top:0;
+    position: relative;
+    font-style: italic;
+    font-weight: 300;
+}
+
+header h2:before, header h2:after {
+    display: inline-block;
+    height: 2px;
+    vertical-align: middle;
+    content:' ';
+    margin-right: 20px;
+    background: #fff;
+    width: 150px;
+    z-index: 999;
+}
+
+header h2:after {
+    margin-right: 0;
+    margin-left: 20px;
+
+}
+
+.wrapper {
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+    position: relative;
+    margin: 0;
+}
+.wrapper.grey {
+    background: #eee;
+}
+.content{
+    width: 42em;
+    margin: 0 auto;
+}
+
+.excerpt {
+    text-align: center;
+    font-family: "Droid Serif",Georgia,Times,"Times New Roman",serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding: 2em 0;
+}
+
+.meta {
+    font-family: "Droid Sans", sans-serif;
+    float: right;
+    color: #ddd;
+
+}
+.meta .author a {
+    font-style: italic;
+    color: #ddd;
+    text-decoration: none;
+}
+.meta .author a:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+.meta .author, .meta .date {
+    display: inline-block;
+}
+.body {
+    clear: both;
+    margin-top: 4em;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+ul.post-list {
+    padding: 3em 0;
+    margin: 0;
+}
+
+.post-list li {
+    background: #fff;
+    width: 100%;
+    margin-top: 2em;
+    height:12em;
+}
+.main-image {
+    width: 12em;
+    height: 12em;
+    background: url('') center center no-repeat #ddd;
+    background-size: cover;
+    float: left;
+}
+.post-list li .description {
+    float: left;
+    padding: 1.2em;
+    margin-left: 1em;
+    width: 25.6em;
+    height: 9.6em;
+}
+.admin .post-list li .description {
+    padding: 0.6em;
+    width: 26.8em;
+    height: 10.2em;
+}
+.post-list li h2{
+    color: #333;
+    margin: 0.5em 0;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.post-list li .author, .post-list li .date {
+    display: inline;
+    font-family: "Droid Sans", sans-serif;
+    color: #ccc;
+}
+.post-list li > a {
+    display: block;
+    text-decoration: none;
+}
+.post-list li .author a {
+    color: #6b9ccc;
+    text-decoration: none;
+}
+.post-list li .author a:hover {
+    color: #528ccc;
+    text-decoration: underline;
+}
+.post-list li p {
+    height: 4rem;
+    color: #555;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    line-height: 1.6em;
+}
+
+footer.author {
+    background: #f7f7f7;
+    margin-top: 3em;
+    padding: 3em 0;
+}
+
+footer.author .avatar {
+    border-radius: 50%;
+    width: 64px;
+    float: left;
+    border: 5px solid #e2e2e2;
+}
+
+footer.author .avatar img {
+    border-radius: 50%;
+    width: 64px;
+}
+
+footer.author .name {
+    float: left;
+    line-height: 64px;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+footer.wrapper {
+    padding: 3em 0;
+    background: #f7f7f7;
+}
+footer nav ul {
+    text-align: center;
+}
+footer nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Droid Sans", sans-serif;
+}

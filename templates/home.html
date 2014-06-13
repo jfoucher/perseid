@@ -1,0 +1,68 @@
+<template name="home">
+    {{#if currentUser}}
+    {{>preferences}}
+    {{/if}}
+
+    <section class="container-fluid wrapper grey">
+
+        <div class="row">
+            <ul class="col-md-6 col-md-offset-3 post-list">
+
+                {{#each posts}}
+                {{> blogpost}}
+                {{else}}
+
+
+                <p class="excerpt">
+                    You don't have any posts yet.<br>
+                    <a href="{{pathFor 'create_post'}}">Write your first post</a>
+                </p>
+                {{/each}}
+
+
+
+            </ul>
+
+
+        </div>
+    </section>
+
+</template>
+
+
+<template name="blogpost">
+    <li class="row {{this.status}}">
+        {{#if showTools this}}
+        <div class="tools">
+            <a title="Edit" href="{{pathFor 'edit_post'}}" class="glyphicon glyphicon-pencil"></a>
+            <a title="Delete" href="#" class="glyphicon glyphicon-trash delete"></a>
+            {{#if isDraft this}}
+            <a title="Publish" href="#" class="glyphicon glyphicon-eye-open publish"></a>
+            {{else}}
+            <a title="Make draft" href="#" class="glyphicon glyphicon-eye-close draft"></a>
+            {{/if}}
+        </div>
+        {{/if}}
+        {{#if trashed}}
+        <div class="trashed"><a href="#" class="recover">Recover</a> or <a href="#" class="delete-forever text-danger">Delete Forever</a></div>
+        {{/if}}
+        <a href="{{pathFor 'post'}}">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="main-image" style="background-image: {{this.cover}}"></div>
+            </div>
+
+            <div class="description col-md-8 col-sm-8 col-xs-8" id="{{this._id}}">
+                <h2>{{this.title}}</h2>
+
+                <div class="author">
+                    By <a href="/">{{authorName this}}</a>
+                </div>
+                <div class="date">
+                    {{dateFrom this.date}}
+                </div>
+                <p>{{{this.excerpt}}}</p>
+            </div>
+        </a>
+
+    </li>
+</template>

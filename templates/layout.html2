@@ -1,0 +1,2939 @@
+<template name="layout">
+<div class="page-wrapper collection-page  has-no-user">
+
+<article class="stream-map-view collection-stream-map-view exclude-user exclude-collection">
+<header class="collection-header photo-header">
+    <div class="cover-image" style="background-image: url(img/header.jpg); height: 572px;"></div>
+    <div style="height: 573px;" class="header-top">
+        <div class="overlay"></div>
+
+        <div class="vert-center-wrapper">
+            <div class="vert-centered">
+                <div class="center">
+                    <h1>Jonathan Foucher</h1>
+
+                    <div class="details-wrapper">
+                        <div class="details">
+                            <div class="inner">
+
+                                <div class="author-bio elipses">
+                                    My blog
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header-bottom">
+
+        <div class="description-container vert-center-wrapper">
+            <div class="vert-centered">
+                <p>Marine nomads, the Bajau Laut, have lived in the waters
+                    of the Coral Triangle for centuries but their way of life and their
+                    uniquely intimate relationship with the ocean is being destroyed.</p>
+            </div>
+        </div>
+
+        <h3 class="map-location-title elipses">Indonesia</h3>
+        <div class="down-pointer"></div>
+    </div>
+
+</header><div style="height: 570.4px; margin-bottom: -30px;" class="map-view"><div class="fixed-wrapper">
+    <div class="road-map-canvas" style="width: 100%; height: 100%; position: relative; background-color: rgb(206, 206, 206); overflow: hidden;"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: -669px; top: -131px; z-index: 1; width: 100%; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; transform-origin: 720px 285px 0px;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; z-index: 200;"><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 100%; z-index: 201;"><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="left: -1297px; top: 357px;" class="post-map-layer"><div style="top: 440.543px; left: 1529.74px; height: 157px; width: 140px; margin-left: -70px; margin-top: -78.5px;" class="post-map-tile"><div class="maptia-tile-wrapper image-tile">
+        <div class="maptia-tile-wrapper-inner">
+
+            <div style="height: 136px;" class="maptia-tile">
+                <div class="on-hover">
+
+
+
+                    <button class="like-button " disabled="disabled">
+                        <span class="like-count">1</span>
+                    </button>
+
+
+                </div>
+                <img src="blog_files/post2x.jpg" alt="Last of the Sea Nomads">
+            </div>
+
+            <div class="maptia-tile-meta">
+                <div class="location-link elipses">
+                    <a data-location-name="South Sulawesi, Indonesia" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+                        South Sulawesi, Indonesia
+                    </a>
+                </div>
+
+                <div style="" class="collection-name-link elipses">
+                    <span class="prefix">in</span>
+                    <a href="http://maptia.com/jamesmorgan/stories/last-of-the-sea-nomads">Last of the Sea Nomads</a>
+                </div>
+
+
+                <div style="" class="user-name-link elipses">
+                    <!--  -->
+                    <!-- <span class="prefix">posted </span> -->
+                    <a href="http://maptia.com/jamesmorgan">by James Morgan</a>
+                </div>
+
+
+                <div class="post-stats">
+
+                    <span class="no-likes">1 like</span>
+
+                </div>
+            </div>
+
+            <div class="map-meta">
+                <div class="location-link elipses-letter">
+                    <a data-location-name="South Sulawesi, Indonesia" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+            <span class="icon-alone">
+              <span aria-hidden="true" data-icon="L"></span>
+              <span class="screen-reader-text">location</span>
+            </span>
+                        South Sulawesi, Indo... </a></div>
+                <div class="hover-timer">
+                    <div class="hover-timer-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div></div><div style="top: 440.543px; left: 1380.5px; height: 157px; width: 140px; margin-left: -70px; margin-top: -78.5px;" class="post-map-tile"><div class="maptia-tile-wrapper image-tile">
+        <div class="maptia-tile-wrapper-inner">
+
+            <div style="height: 136px;" class="maptia-tile">
+                <div class="on-hover">
+
+
+
+                    <button class="like-button " disabled="disabled">
+                        <span class="like-count">1</span>
+                    </button>
+
+
+                </div>
+                <img src="blog_files/post2x_002.jpg" alt="Last of the Sea Nomads">
+            </div>
+
+            <div class="maptia-tile-meta">
+                <div class="location-link elipses">
+                    <a data-location-name="South Sulawesi, Indonesia" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+                        South Sulawesi, Indonesia
+                    </a>
+                </div>
+
+                <div style="" class="collection-name-link elipses">
+                    <span class="prefix">in</span>
+                    <a href="http://maptia.com/jamesmorgan/stories/last-of-the-sea-nomads">Last of the Sea Nomads</a>
+                </div>
+
+
+                <div style="" class="user-name-link elipses">
+                    <!--  -->
+                    <!-- <span class="prefix">posted </span> -->
+                    <a href="http://maptia.com/jamesmorgan">by James Morgan</a>
+                </div>
+
+
+                <div class="post-stats">
+
+                    <span class="no-likes">1 like</span>
+
+                </div>
+            </div>
+
+            <div class="map-meta">
+                <div class="location-link elipses-letter">
+                    <a data-location-name="South Sulawesi, Indonesia" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+            <span class="icon-alone">
+              <span aria-hidden="true" data-icon="L"></span>
+              <span class="screen-reader-text">location</span>
+            </span>
+                        South Sulawesi, Indo... </a></div>
+                <div class="hover-timer">
+                    <div class="hover-timer-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div></div><div style="top: 374.961px; left: 1251.59px; height: 109px; width: 92px; margin-left: -46px; margin-top: -54.5px;" class="post-map-tile"><div class="maptia-tile-wrapper text-tile">
+        <div class="maptia-tile-wrapper-inner">
+
+            <div style="height: 88px;" class="maptia-tile">
+                <div class="on-hover">
+
+
+
+                    <button class="like-button " disabled="disabled">
+
+                    </button>
+
+
+                </div>
+                <div class="tile-inner elipses">
+
+                    <h2>Destructive fishing... </h2></div>
+            </div>
+
+            <div class="maptia-tile-meta">
+                <div class="location-link elipses">
+                    <a data-location-name="Indonesia" href="http://maptia.com/explore/-0.789275,113.921327/indonesia">
+                        Indonesia
+                    </a>
+                </div>
+
+                <div style="" class="collection-name-link elipses">
+                    <span class="prefix">in</span>
+                    <a href="http://maptia.com/jamesmorgan/stories/last-of-the-sea-nomads">Last of the Sea Nomads</a>
+                </div>
+
+
+                <div style="" class="user-name-link elipses">
+                    <!--  -->
+                    <!-- <span class="prefix">posted </span> -->
+                    <a href="http://maptia.com/jamesmorgan">by James Morgan</a>
+                </div>
+
+
+                <div class="post-stats">
+
+
+
+                </div>
+            </div>
+
+            <div class="map-meta">
+                <div class="location-link elipses-letter">
+                    <a data-location-name="Indonesia" href="http://maptia.com/explore/-0.789275,113.921327/indonesia">
+
+  <span class="icon-alone">
+    <span aria-hidden="true" data-icon="L"></span>
+    <span class="screen-reader-text">location</span>
+  </span>
+
+                        Indonesia
+                    </a>
+                </div>
+                <div class="hover-timer">
+                    <div class="hover-timer-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; width: 100%; z-index: 202;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1;"><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 101px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 357px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 613px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: -155px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 613px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1;"><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_012.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_018.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_013.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_007.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_005.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_020.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_010.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_011.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1263px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_014.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_009.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_028.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_002.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_027.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1519px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_003.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_006.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_021.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1007px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_025.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 101px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_008.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 357px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_015.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_024.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_019.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1775px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_017.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 751px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_022.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_004.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_026.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 2031px; top: 613px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_016.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 495px; top: -155px; opacity: 1; transition: opacity 200ms ease-out 0s;"><img draggable="false" src="blog_files/vt_023.png" style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></div></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a title="Click to see this area on Google Maps" href="http://maps.google.com/maps?ll=-2.576957,118.014863&amp;z=5&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=apiv3" target="_blank" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 62px; height: 26px; cursor: pointer;"><img draggable="false" src="blog_files/google_white2_hdpi.png" style="position: absolute; left: 0px; top: 0px; width: 62px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></a></div><div style="z-index: 1000001; position: absolute; right: 72px; bottom: 0px; width: 374px;" class="gmnoprint"><div class="gm-style-cc" style="-moz-user-select: none;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2014 AutoNavi, GBRMPA, Google, Kingway, MapIT, SK planet, ZENRIN</span></div></div></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 570px; top: 195px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2014 AutoNavi, GBRMPA, Google, Kingway, MapIT, SK planet, ZENRIN</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img draggable="false" src="blog_files/mapcnt3.png" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;"></div></div><div style="position: absolute; right: 0px; bottom: 0px;" class="gmnoscreen"><div style="font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2014 AutoNavi, GBRMPA, Google, Kingway, MapIT, SK planet, ZENRIN</div></div><div draggable="false" style="z-index: 1000001; position: absolute; -moz-user-select: none; right: 0px; bottom: 0px;" class="gmnoprint gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a target="_blank" href="http://www.google.com/intl/en_US/help/terms_maps.html" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div class="gm-style-cc" style="-moz-user-select: none; position: absolute; right: 0px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; display: none;"><a href="http://maps.google.com/maps?ll=-2.576957,118.014863&amp;z=5&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=apiv3&amp;skstate=action:mps_dialog$apiref:1&amp;output=classic" style="font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" title="Report errors in the road map or imagery to Google" target="_new">Report a map error</a></div></div></div></div>
+
+
+    <div class="map-nav-wrapper">
+        <button class="sq-btn-small zoomer zoomin">
+      <span class="icon-alone">
+        <span aria-hidden="true" data-icon="+"></span>
+        <span class="screen-reader-text">zoomin</span>
+      </span>
+        </button>
+        <button class="sq-btn-small zoomer zoomout">
+      <span class="icon-alone">
+        <span aria-hidden="true" data-icon="-"></span>
+        <span class="screen-reader-text">zoomout</span>
+      </span>
+        </button>
+        <div class="zoomer zoomloader hidden"></div>
+    </div>
+
+</div></div><div class="stream-view mapping-stream"><div class="stream-inner">
+<header><div class="map-attribution-wrapper">
+    <div class="google-logo">
+        <img src="blog_files/google_white2.png">
+    </div>
+    <div draggable="false" class="gm-style-cc g-maps-attribution" style="-webkit-user-select: none;"><div class="gm-style-cc" style="-moz-user-select: none;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2014 AutoNavi, GBRMPA, Google, Kingway, MapIT, SK planet, ZENRIN</span></div></div><div draggable="false" style="z-index: 1000001; position: absolute; -moz-user-select: none; right: 0px; bottom: 0px;" class="gmnoprint gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a target="_blank" href="http://www.google.com/intl/en_US/help/terms_maps.html" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div></div>
+</div></header>
+<div style="min-height: 0px;" class="canvas"><div class="stream-section permanent-map map-open">
+    <div style="height: 0px;" class="map-window"></div>
+    <div class="mapping-block text-block stream-block">
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-0.789275,113.921327/indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+                <h1>Destructive fishing techniques are common practice amongst the coastal populations of the Coral Triangle.</h1>
+
+                <div class="text"><p>The favoured methods are homemade
+                    fertiliser bombs and potassium cyanide, which have not only decimated
+                    reefs in the largest and most diverse marine bio-region in the world but
+                    have destroyed countless human lives as well.</p><p>Of all these
+                    communities, the Bajau Laut have perhaps suffered the most. The Bajau
+                    Laut are some of the last true marine nomads. An ethnic group of Malay
+                    origin, they have for centuries lived out their lives almost entirely at
+                    sea, plying a tract of ocean between Malaysia, the Philippines and
+                    Indonesia. In the last few decades, many have been forced to settle
+                    permanently on land, but a dwindling number still call the ocean home,
+                    living on long boats known as lepa lepa. Traditionally, they fish with
+                    nets and lines and are expert free divers, going to improbable depths in
+                    search of pearls and sea cucumbers or to hunt with handmade spear guns.</p><p>But
+                    these traditional techniques have been largely replaced by cyanide and
+                    dynamite fishing, practices that are being driven predominantly by the
+                    live fish trade—an industry whose global worth is estimated at US $1
+                    billion. The trade’s epicentre is Hong Kong, while Indonesia supplies
+                    most of the fish, accounting for nearly 50% of all imports. Target
+                    species are grouper and Napoleon wrasse, reef species that are key to
+                    the preservation of coral ecosystems.</p><p>Traditional Bajau
+                    cosmology—a syncretism of animism and Islam—reveals a complex
+                    relationship with the ocean, which for them is a multifarious and living
+                    entity. There are spirits in currents and tides, in coral reefs and
+                    mangroves. My point of interest is the potential for dovetailing the
+                    Bajau’s uniquely intimate understanding of the ocean with wider marine
+                    conservation strategies in order to facilitate them in conserving,
+                    rather than, destroying their culture and the spectacular marine
+                    environments they have called home for centuries.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section big-letter">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_004.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>This is a collection of
+                    traditional, handmade Bajau lepa lepa boats off the coast of Pulau
+                    Bangko. More and more Bajau are abandoning their traditional nomadic
+                    lifestyle to settle in permanent homes in stilt villages, but a
+                    dwindling few still choose to live the majority of their lives at sea.</p><p>Ibu
+                    Diana Botutihe is one of the few remaining people in the world to have
+                    lived her entire life at sea, visiting land only intermittently and as a
+                    matter of necessity in order to trade fish for rice, water and other
+                    staples. She is pictured here, in the right-hand photograph, on her boat
+                    in Sulawesi, Indonesia.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_013.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>Another of the few individuals in
+                    the world to have lived all his life at sea, here Amja Kasim Derise
+                    cooks dinner at home on his traditional lepa lepa boat. The back of the
+                    boat is used for cooking, the middle for sleeping and the front for
+                    fishing.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_002.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>The current generation of Bajau
+                    may be the last see individuals spend their entire lives at sea. There
+                    is no doubt that some incredibly important knowledge is in danger of
+                    dying out with them—knowledge that could play an important role in
+                    preserving the Coral Triangle and the world’s oceans.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_009.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.282644,123.5839983/wangi-wangi-wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wangi-Wangi, Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Whilst few young Bajau are now
+                    born on boats, the ocean is still very much their playground. And whilst
+                    they are getting conflicted messages from their communities, who
+                    simultaneously refrain from spitting in the ocean and continue to
+                    dynamite its reefs, I still believe they could play a crucial role in
+                    the development of western marine conservation practices.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.282644,123.5839983/wangi-wangi-wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wangi-Wangi, Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_016.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>Here Enal plays with his pet shark.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_006.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-0.4166667,121.8666667/togian-islands-wakai-tojo-una-una-94691-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Togian Islands, Wakai, Tojo Una-Una 94691, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Traditionally hunter gatherers,
+                    the Bajau have provided for themselves primarily by spearfishing. But as
+                    seas are fished out it has become harder for the Bajau to support
+                    themselves. Today, in additional to the nets and lines traditionally
+                    used for fishing, the Bajau use a handmade ‘pana’ for spearing their
+                    catch.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.3264442,123.5951925/wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_009.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>Catching a grouper the traditional
+                    way with hook and line, as opposed to cyanide, yields a much smaller
+                    catch and radically decreased profits.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_017.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.3264442,123.5951925/wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p> Whilst fishermen and export
+                    companies are making efforts to continue this more sustainable way of
+                    fishing, ultimately there needs to be a change in the nature of the
+                    consumer demand. Consumer awareness has the biggest chance of making a
+                    sustainable live fish industry a reality.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_003.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-0.4166667,121.8666667/togian-islands-wakai-tojo-una-una-94691-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Togian Islands, Wakai, Tojo Una-Una 94691, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>They are also adept free divers,
+                    descending to improbable depths in search of food and other creatures
+                    for trade. Dependent on the sea for their food and livelihoods, the
+                    Bajau can create delicacies from a wide range of sea creatures.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_011.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato... </a></span>
+                </div>
+
+
+                <div class="description"><p>Among those are stingrays, which the Bajau catch with nets and spears, using the tail section to make a yellow stingray curry.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block narrow-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_006.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses-letter">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>Also the sea cucumber (teripang), a staple food (and valuable export product) for the Bajau.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_010.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-1.8479079,120.5279096/sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Jatmin, an octopus specialist,
+                    carries his freshly speared catch back to his boat in the shallow waters
+                    off the coast of Sulawesi, Indonesia. Jatmin then surfaces with the
+                    octopus. The spearguns the Bajau often carry are handy for rooting the
+                    creatures from the holes in which they hide.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_008.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Moen Lanke spends most of the year
+                    at sea, sustaining himself almost solely on what the ocean provides.
+                    Here he is wrenching clams from the reef with a tyre iron. He holds his
+                    breath for long minutes underwater while the work is done.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block narrow-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_015.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses-letter">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>Moen Lanke, seconds after
+                    freediving for clams with a tyre iron. The weight of the iron holds him
+                    down on the ocean floor allowing him to run along the reefs. In order to
+                    get around the problem of equalising (a technique used by scuba divers
+                    to balance the pressure of the inner and outer ear at depth) it is
+                    common practice amongst Bajau people to intentionally burst their ear
+                    drums at an early age.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_007.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato, Gorontalo, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Ibu Ani looks on as her son,
+                    Ramdan, forages the reef for clams. Since Ani’s husband died of the
+                    bends whilst compressor diving, she has relied on her son to forage the
+                    reefs and support her during the months they spend at sea together. Here
+                    Ramdan is hunting with his handmade pana speargun.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section big-letter">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_012.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>The practice of compressor diving,
+                    often in conjunction with cyanide fishing, remains common amongst the
+                    Bajau Laut despite being unsustainable, illegal and highly dangerous.
+                    Young Bajau men, and often children, will routinely dive to depths of
+                    sixty metres with air pumped down to them through a hose pipe and a
+                    regulator—with no knowledge of the dangers inherent in diving to such
+                    depths they often ascend far to quickly resulting in nitrogen build up
+                    and the bends. Compressor diving is one of the main causes of unnatural
+                    death amongst the Bajau communities I have visited.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block narrow-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_018.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses-letter">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>Pak Lapoli demonstrates using
+                    cyanide to catch grouper for the live reef fish trade. Potassium Cyanide
+                    devastates whole reef colonies as the deadly mixture is dispersed
+                    widely by currents and is thought to be more destructive in the long
+                    term than bomb fishing.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_005.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.3264442,123.5951925/wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>Pak Usrin demonstrates how to make
+                    a fertiliser bomb. He assures me, however, that he stopped bombing
+                    reefs back in 2005. Today he gets paid through Reef Check Indonesia to
+                    protect his local coral environment.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.3264442,123.5951925/wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>The use of dynamite and cyanide is
+                    leaving Bajau fishermen maimed and killed. It is also destroying the
+                    world’s epicentre of coral diversity at a rate which is verging on
+                    irreversible. Ibu Hanisa, pictured here in the left-hand photograph,
+                    lost her hands and the sight in one eye when a homemade fertiliser bomb
+                    went off in her house. There are human, as well as environmental, costs
+                    to destructive fishing practices.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_014.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-1.8479079,120.5279096/sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Sulawesi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>The Indonesian government has made
+                    a concerted effort to move the traditionally nomadic Bajau into settled
+                    communities on land. Basic amenities are scarce however, and the
+                    poorest claim that government promises of help have been hollow, leading
+                    them to return to the old nomadic way of life at sea. In Torosiaje,
+                    many Bajau left their government-provided homes and built this stilt
+                    village 1km out to sea. </p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-3.6687994,119.9740534/south-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          South Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_004.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>These two children are from a
+                    Bajau family who have taken up residence on one of the innumerable
+                    uninhabited islands that line the coast of Sulawesi. Unable to eke out a
+                    living on land they have turned back to the sea in order to live a self
+                    sufficient lifestyle based around ‘cari laut’—searching the ocean.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_002.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato, Gorontalo, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Young Bajau children wade out from
+                    Torosiaje village to look for sea cucumbers and shell fish. The path to
+                    self-sufficiency begins at an early age, as children learn the vital
+                    skills of foraging in the shallows.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_007.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato... </a></span>
+                </div>
+
+
+                <div class="description"><p>For the children that are born in
+                    Torosiaje, it may be several years before they set foot on dry land. The
+                    stilt village has a junior school but older children commute to the
+                    mainland.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato, Gorontalo, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_010.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>Many elder Bajau now live in such communities, their childhoods living nomadically on the ocean now distant memories.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/0.4787483,121.4599012/torosiaje-popayato-pohuwato-gorontalo-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Torosiaje, Popayato, Pohuwato... </a></span>
+                </div>
+
+
+                <div class="description"><p>Despite the majority of Bajau now
+                    living in stilt communities and adopting cosmologies more in line with
+                    land-based communities, they still build their mosques over the ocean
+                    and practice a syncretic belief system that allows for a deep reverence
+                    for the ocean and the spirits that are said to inhabit it.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block full-width-photo-block stream-block">
+
+        <div class="center top-center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+        </div>
+
+
+        <figure><img src="blog_files/full_screen2x_005.png">
+
+
+            <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                <div class="attribution-content elipses-letter">
+                    ©... </div>
+            </div>
+
+        </figure>
+
+
+        <div class="center bottom-center">
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.282644,123.5839983/wangi-wangi-wakatobi-south-east-sulawesi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Wangi-Wangi, Wakatobi, South East Sulawesi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+            <div class="main-content">
+                <div class="description"><p>Night time prayers at a mosque on
+                    stilts over the ocean. In addition to the more widely practised mainland
+                    faith, the Bajau follow their own particular ‘Pamali’—a set of taboos
+                    and ritual observances that govern their interaction with the sea.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block left-wide-photo-block stream-block">
+
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_008.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+
+
+                <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.7592924,123.9415518/tomea-island-wakatobi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Tomea Island, Wakatobi, Indonesia
+      </a>
+    </span>
+                </div>
+
+
+                <div class="description"><p>A significant source of income for
+                    the Bajau is selling their catch of grouper to live fish export
+                    companies. At the end of the day a Bajau fisherman will take his catch
+                    to the ‘cages’—large underwater nets used by the export companies to
+                    store grouper and other live reef fish. </p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block photo-block center-wide-photo-block stream-block">
+
+        <div class="center">
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-5.7592924,123.9415518/tomea-island-wakatobi-indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Tomea Island, Wakatobi, Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+
+                <figure><img src="blog_files/full2x_003.jpg">
+
+
+                    <div class="attribution">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="^"></span>
+          <span class="screen-reader-text">attribution</span>
+        </span>
+                        <div class="attribution-content elipses-letter">
+                            ©... </div>
+                    </div>
+
+                </figure>
+
+                <div class="description"><p>Tadadak with a grouper at the
+                    cages off Tomian Island. Grouper, along with Napoleon Wrasse, is one of
+                    the most highly demanded species in the live fish trade—this is
+                    unfortunate, as it is also one of the reef species vital to the
+                    preservation of the coral ecosystems.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div><div class="stream-section">
+    <div class="map-window"></div>
+    <div class="mapping-block text-block stream-block">
+        <div class="center">
+
+
+            <button class="stream-location-button tool-tip-wrapper">
+                <div class="border-section"></div>
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+                <!--<span class="tool-tip">Click to see the location of this post on the story map.</span>-->
+            </button>
+
+
+
+            <div class="content-meta top-meta no-date">
+    <span class="location-link elipses">
+      <a id="location-link-tag" href="http://maptia.com/explore/-0.789275,113.921327/indonesia">
+        <span class="icon-alone">
+          <span aria-hidden="true" data-icon="L"></span>
+          <span class="screen-reader-text">location</span>
+        </span>
+          Indonesia
+      </a>
+    </span>
+            </div>
+
+
+
+            <div class="main-content">
+                <h1>So how do you protect six million square kilometres of
+                    ocean, seventy-six per cent of the world’s coral species, blue whales,
+                    dugongs, turtles, pymgy seahorses, and more than a million humans?</h1>
+
+                <div class="text"><p>The coral triangle is a veritable Amazon
+                    of the oceans—home to thousands upon thousands of species of whales,
+                    sharks, turtles, tuna and other reef fish, many of which are critically
+                    endangered.</p><p>The Bajau Laut are one of the last nomadic marine
+                    communities in the world. For generations they have plied the waters of
+                    the coral triangle, moving between Indonesia, Malaysia, and the
+                    Philippines. But in recent years their way of life has been pushed
+                    almost to extinction.</p><p>I initially came out to Indonesia in order
+                    to explore the potential of incorporating some of the Bajau’s indigenous
+                    knowledge of the ocean into marine conservation strategies, but the
+                    reality is that the Bajau as much as anybody are now responsible for a
+                    lot of the destructive fishing that is taking place in the coral
+                    triangle region.</p><p>Personally, I feel that in order to enact a
+                    genuinely sustainable and meaningful conservation program for the coral
+                    triangle region, we need to empower groups such as the Bajau to look
+                    after and curate their own environments.</p></div>
+
+
+                <div class="content-meta bottom-meta">
+
+                    <div class="button-combiner like-comment-button-combiner tool-tip-wrapper">
+
+
+
+                        <button class="like-button " disabled="disabled">
+                            <span class="like-count">1</span>
+                        </button>
+
+
+                        <span class="tool-tip">For now, only people who are logged in can like or comment on a post.</span>
+
+                        <button class="comment-button action-button tool-tip-wrapper">
+
+                        </button>
+
+                    </div>
+
+                    <button class="get-url tool-tip-wrapper">
+                        <span class="tool-tip">Click to copy the sharable URL of this post into your address bar.</span>
+                    </button>
+                    <span class="creation-date">3 days ago</span>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div></div>
+<footer class="footer-block stream-block">
+
+    <div class="center">
+
+        <h3 class="caps-header recommend-header">RECOMMEND THIS STORY AS</h3><div style="height: auto;" class="recommend-buttons open"><button style="position: relative; left: 0px; top: 0px;" class="recommend-option highlighted" data-tag-id="841">
+        Thought-provoking
+        <span class="count">1</span>
+    </button><!--
+    --><!--
+      --><!--
+      --><button class="recommend-option  no-count" data-tag-id="830">
+        Adventurous
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="831">
+        Awesome
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="832">
+        Beautiful
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="833">
+        Fascinating
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="834">
+        Funny
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="835">
+        Heart-warming
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="836">
+        Inspiring
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="837">
+        Jaw-dropping
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="838">
+        Moving
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="839">
+        Reflective
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="840">
+        Remarkable
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="842">
+        Unusual
+        <span class="count"></span>
+    </button><!--
+      --><button class="recommend-option  no-count" data-tag-id="843">
+        Vivid
+        <span class="count"></span>
+    </button>
+        <div style="left: 678.7px; right: auto;" class="dotdotdot">
+            <div class="spot">
+            </div>
+        </div></div>
+
+
+        <h3 class="caps-header">SHARE THIS STORY</h3>
+        <blockquote class="share-quote hidden">
+            Last of the Sea Nomads – <span class="prefix">an</span> <span class="verb">awesome</span> story on @Maptia
+        </blockquote>
+        <div class="share-buttons">
+            <button class="twitter-icon-button"></button>
+            <button class="facebook-icon-button"></button>
+            <button class="google-icon-button"></button>
+            <button class="email-icon-button"></button>
+        </div>
+
+
+        <h3 class="caps-header">THIS STORY WAS TOLD BY</h3>
+        <a class="no-style" href="http://maptia.com/jamesmorgan">
+            <div class="author-section">
+
+                <div class="absolute-wrapper background-circle-wrapper">
+                    <div class="circle-image-wrapper">
+                <span class="icon-alone avatar-icon">
+                  <span aria-hidden="true" data-icon="R"></span>
+                  <span class="screen-reader-text">avatar</span>
+                </span>
+                    </div>
+                </div>
+
+                <div class="absolute-wrapper foreground-circle-wrapper">
+                    <div class="circle-image-wrapper" style="background-image: url(https://maptia-production.s3.amazonaws.com/users/18454/profile_photo.png)"></div>
+                </div>
+
+                <h4>James Morgan</h4>
+                <p>Photojournalist and film maker focused on projects that
+                    explore indigenous cosmologies and the human ecology side of the
+                    environmental movement.</p>
+            </div>
+        </a>
+
+
+        <!--<h3 class="caps-header">EXPLORE NEARBY</h3>
+        <div class="location-link elipses tool-tip-wrapper">
+          <a href="/explore/-0.789275,113.921327/indonesia">
+
+    <span class="icon-alone">
+      <span aria-hidden="true" data-icon="L"></span>
+      <span class="screen-reader-text">location</span>
+    </span>
+
+            Indonesia
+          </a>
+          <span class="tool-tip">For now, only people who are logged in can explore places.</span>
+        </div>-->
+
+    </div>
+
+</footer>
+</div></div><div class="progress-counter"><span>1 of 30</span></div></article></div>
+</template>

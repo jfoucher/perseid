@@ -1,0 +1,44 @@
+<template name="post">
+
+
+    <section class="container-fluid wrapper post">
+        <input type="hidden" id="post-id" value="{{post._id}}" />
+        <div class="content">
+
+            <div class="excerpt">
+                {{{post.excerpt}}}
+            </div>
+
+            <div class="meta">
+                <div class="author">
+                    By <a href="/">{{userName author}}</a>
+                </div>
+                <div class="date">
+                    {{dateFrom post.date}}
+                </div>
+            </div>
+
+            <div class="body">
+                {{{post.body}}}
+            </div>
+
+
+
+
+        </div>
+        <footer class="author">
+            <div class="content">
+                <div class="clearfix">
+                    <div class="avatar">
+                        {{{userAvatar author 128}}}
+                    </div>
+                    <div class="name">
+                        {{userName author}}
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+</template>
+
