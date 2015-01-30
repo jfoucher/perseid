@@ -37,16 +37,15 @@ Router.map(function() {
             if (!Meteor.isClient) {
                 return;
             }
-            var blog = this.data().blog;
             SEO.set({
-                title: blog.title.value,
+                title: Preferences.findOne('blog_title').value,
                 meta: {
-                    'description': blog.subtitle.value
+                    'description':Preferences.findOne('blog_subtitle').value
                 },
                 og: {
-                    'title': blog.title.value,
-                    'description': blog.subtitle.value,
-                    'image': window.location.protocol+'//'+window.location.hostname +'/'+ blog.cover.value
+                    'title': Preferences.findOne('blog_title').value,
+                    'description': Preferences.findOne('blog_subtitle').value,
+                    'image': window.location.protocol+'//'+window.location.hostname +'/'+ Preferences.findOne('blog_cover').value
                 }
             });
         }
@@ -171,6 +170,7 @@ Router.map(function() {
             if (!Meteor.isClient) {
                 return;
             }
+            console.log(this.data());
             post = this.data().post;
             SEO.set({
                 title: 'Editing post '+post.title
