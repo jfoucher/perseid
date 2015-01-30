@@ -1,0 +1,1 @@
+Blog engine written in meteor to test the stack. Very early prototype, not really functional
