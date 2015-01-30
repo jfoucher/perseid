@@ -2,11 +2,17 @@
     {{#if currentUser}}
     {{>preferences}}
     {{/if}}
+    {{#if homeDisplayIs 'single' }}
 
+    {{ > post}}
+
+    {{#if currentUser}}
     <section class="container-fluid wrapper grey">
 
         <div class="row">
             <ul class="col-md-6 col-md-offset-3 post-list">
+
+
 
                 {{#each posts}}
                 {{> blogpost}}
@@ -21,12 +27,42 @@
 
 
 
+
             </ul>
 
 
         </div>
     </section>
+    {{/if}}
 
+    {{ else }}
+    <section class="container-fluid wrapper grey">
+
+        <div class="row">
+            <ul class="col-md-6 col-md-offset-3 post-list">
+
+
+
+                    {{#each posts}}
+                    {{> blogpost}}
+                    {{else}}
+
+
+                    <p class="excerpt">
+                        You don't have any posts yet.<br>
+                        <a href="{{pathFor 'create_post'}}">Write your first post</a>
+                    </p>
+                    {{/each}}
+
+
+
+
+            </ul>
+
+
+        </div>
+    </section>
+    {{/if}}
 </template>
 
 
@@ -48,7 +84,7 @@
         {{/if}}
         <a href="{{pathFor 'post'}}">
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <div class="main-image" style="background-image: {{this.cover}}"></div>
+                <div class="main-image" style="background-image: url({{this.cover}})"></div>
             </div>
 
             <div class="description col-md-8 col-sm-8 col-xs-8" id="{{this._id}}">

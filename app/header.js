@@ -2,13 +2,16 @@ if(Meteor.isClient){
     Template.header.dragging = 0;
     Template.header.movingCover = 0;
 
+    Template.header.isEditingPost = function(){
+        return ($('#post-id').length);
+    };
+
     Template.header.helpers({
         'newPost': function(){
             return (!$('#post-id').val());
         },
 
         canEditPost: function(post){
-            console.log(Meteor.user(), post, Router.current());
             if(Router.current() && Router.current().route.name === 'home'){
                 return false;
             }
@@ -24,35 +27,35 @@ if(Meteor.isClient){
     });
     Template.header.events({
         'dragover .dropzone': function(e){
-            console.log(e);
             e.preventDefault();
         },
         'dragenter .dropzone': function(e){
-            console.log(e);
             e.preventDefault();
             $(e.currentTarget).addClass('active');
 
         },
         'dragleave .dropzone': function(e){
             e.preventDefault();
-            console.log(e);
             $(e.currentTarget).removeClass('active');
         },
         'drop .dropzone': function(e){
             e.preventDefault();
-            console.log(e);
             var file = e.originalEvent.dataTransfer.files[0];
             var reader = new FileReader();
             reader.onload = function(){
                 Meteor.call('saveFile', this.result, file.name, function(a,b,c){
-                    console.log(a,b,c);
                     $('.cover-image').removeClass('upload');
                     $('.cover-image').css({
                         'background-image': 'url('+b+')',
                         'background-position':'center 0px'
                     }).addClass('has-image');
                     $('.dropzone').removeClass('active');
-                    Template.create_post.save_post();
+                    if(Template.header.isEditingPost()) {
+                        Template.create_post.save_post();
+                    } else {
+                        Preferences.upsert('blog_cover', {$set:{value: b}});
+                    }
+
                 });
             };
 
@@ -81,12 +84,35 @@ if(Meteor.isClient){
         'mouseup .cover-image': function(e){
             Template.header.dragging = 0;
 
-            console.log($('.cover-image').css('backgroundPosition'));
-            Template.create_post.save_post();
+            //Save blog header position OR post header position
+            if(Template.header.isEditingPost()) {
+                Template.create_post.save_post();
+            } else {
+                Preferences.upsert('blog_coverPosition', {$set:{value: $('.cover-image').css('backgroundPosition')}});
+            }
         },
         'mouseout .cover-image': function(e){
             Template.header.dragging = 0;
             Template.header.movingCover = 0;
+        },
+        'drop [contenteditable]': function(e){
+            e.preventDefault();
+        },
+        'focusout [contenteditable]': function(e){
+            e.preventDefault();
+        },
+        'blur [contenteditable]': function(e){
+            e.preventDefault();
+        },
+        'blur #blog_title': function(e){
+            e.preventDefault();
+            Preferences.upsert('blog_title', {$set:{value: $('#blog_title').text()}});
+
+        },
+        'blur #blog_subtitle': function(e){
+            e.preventDefault();
+
+            Preferences.upsert('blog_subtitle', {$set:{value: $('#blog_subtitle').text()}});
         }
     })
 }

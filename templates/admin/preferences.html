@@ -1,29 +1,31 @@
 <template name="preferences">
     <section class="meta-box">
-        <h2>Blog preferences</h2>
-        <form role="form" id="blog-preferences">
-            <div class="form-group">
-                <label for="title">Blog Title</label>
-                <input type="text" class="form-control" id="title" placeholder="Blog Title" value="{{blog.title.value}}">
-            </div>
-            <div class="form-group">
-                <label for="subtitle">Blog Subtitle</label>
-                <input type="text" class="form-control" id="subtitle" placeholder="Blog Subtitle" value="{{blog.subtitle.value}}">
-            </div>
-            <div class="form-group">
-                <label for="subtitle">Post per page</label>
-                <input type="text" class="form-control" id="per_page" placeholder="10" value="{{blog.per_page.value}}">
-            </div>
-            <div class="form-group">
-                <label for="show_on_home">Show on home</label>
-                <select id="show_on_home">
-                    <option value="single">Single post</option>
-                    <option value="list">List of post</option>
-                </select>
-            </div>
+        <div class="content">
+            <h2>Blog preferences</h2>
+            <form role="form" id="blog-preferences">
+                <div class="form-group">
+                    <label for="blog_title">Blog Title</label>
+                    <input type="text" class="form-control" id="blog_title" placeholder="Blog Title" value="{{blogOptions 'blog_title'}}">
+                </div>
+                <div class="form-group">
+                    <label for="blog_subtitle">Blog Subtitle</label>
+                    <input type="text" class="form-control" id="blog_subtitle" placeholder="Blog Subtitle" value="{{blogOptions 'blog_subtitle'}}">
+                </div>
+                <div class="form-group">
+                    <label for="per_page">Post per page</label>
+                    <input type="text" class="form-control" id="per_page" placeholder="10" value="{{blogOptions 'per_page'}}">
+                </div>
+                <div class="form-group">
+                    <label for="show_on_home">Show on home</label>
+                    <select id="show_on_home">
+                        <option value="single" {{showOnHomeSelected 'single'}}>Single post</option>
+                        <option value="list" {{showOnHomeSelected 'list'}}>List of post</option>
+                    </select>
+                </div>
 
-            <button type="submit" class="btn btn-primary btn-lg">Save preferences</button>
-        </form>
+                <button type="submit" class="btn btn-primary btn-lg">Save preferences</button>
+            </form>
+        </div>
         <a href="#" class="toggle glyphicon glyphicon-plus"></a>
     </section>
 </template>

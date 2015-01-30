@@ -1,5 +1,14 @@
 if(Meteor.isClient) {
+    Template.preferences.helpers({
+        'showOnHomeSelected': function(which){
+            if (Preferences.findOne('show_on_home').value == which){
+                return 'selected';
+            }
+            return '';
 
+        }
+
+    });
     Template.preferences.events({
         'submit #blog-preferences': function(e){
             e.preventDefault();
@@ -7,15 +16,9 @@ if(Meteor.isClient) {
             var $el = $(e.currentTarget);
 
             $el.find('input, select').each(function(i, item){
-
-                console.log(i, item);
                 var $item = $(item);
-
-                console.log($item.val());
                 var id = $item.attr('id');
-                Preferences.upsert(id, {$set:{value: $item.val()}}, {}, function(){
-                    console.log('updated '+id +' with value '+$item.val());
-                });
+                Preferences.upsert(id, {$set:{value: $item.val()}});
             });
 
         },

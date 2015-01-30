@@ -10,14 +10,20 @@ if(Meteor.isClient) {
     Template.create_post.dragging = 0;
 
     Template.create_post.save_post = function(){
+        var excerpt = $.trim($('#post-excerpt').html());
+        var body = $.trim($('#post-body').html());
+        if(!$('#slug').val()) {
+            $('#slug').val(Template.create_post.genererateSlug($.trim($('#title').text())));
+        }
+
         var data = {
             "title" : $.trim($('#title').text()),
             "subtitle" : $.trim($('#subtitle').text()),
-            "excerpt" : $.trim($('#post-excerpt').html()),
-            "body" : $.trim($('#post-body').html()),
+            "excerpt" : excerpt,
+            "body" : body,
             "author": Meteor.user()._id,
             "date": Date.now(),
-            "cover": $('.cover-image').css('backgroundImage'),
+            "cover": $('.cover-image').css('backgroundImage').slice(4, -1),
             "coverPosition": $('.cover-image').css('backgroundPosition'),
             "slug": $('#slug').val(),
             "status": $('[name="status"]:checked').val()
@@ -27,13 +33,16 @@ if(Meteor.isClient) {
             Posts.update($('#post-id').val(), {$set:data});
         } else {
             data['status'] = 'draft';
-            var id = Posts.insert(data);
-            console.log('post created', id)
-            Router.go('edit_post', {_id: id});
+            Router.go('edit_post', {_id: Posts.insert(data)});
         }
+        $('#post-excerpt').html(excerpt);
+        $('#post-body').html(body);
+
 
 
     };
+
+
 
     Template.create_post.getCaretCharacterOffsetWithin = function(element) {
         var caretOffset = 0;
@@ -57,7 +66,7 @@ if(Meteor.isClient) {
     };
 
     Template.create_post.genererateSlug = function(title){
-        var slug = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '-');
+        var slug = title.toLowerCase().latinise().replace(/[^a-zA-Z0-9]/g, '-');
 
         return slug;
     };
@@ -82,7 +91,6 @@ if(Meteor.isClient) {
         'change .post-state': function(e) {
             var state = $('[name="status"]:checked').val();
             var btn = $('.post-meta-box').find('.btn-primary');
-            console.log(state);
             if(state == 'publish') {
                 btn.text('Publish post now');
             } else {
@@ -106,7 +114,7 @@ if(Meteor.isClient) {
             $('.meta-box').toggleClass('open');
             $(e.currentTarget).toggleClass('glyphicon-plus glyphicon-remove');
         },
-        'submit .meta-box > form': function(e){
+        'submit .meta-box form': function(e){
             e.preventDefault();
             Template.create_post.save_post();
         }

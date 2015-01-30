@@ -3,7 +3,7 @@
     {{#if canEditPost post}}
     <header class="container-fluid admin">
         {{#if post}}
-        <div class="cover-image upload has-image" style="background-image:{{post.cover}};background-position:{{post.coverPosition}}"><div class="dropzone"></div></div>
+        <div class="cover-image upload has-image" style="background-image:url({{post.cover}});background-position:{{post.coverPosition}}"><div class="dropzone"></div></div>
 
         {{else}}
         <div class="cover-image upload"><div class="dropzone"></div></div>
@@ -19,7 +19,7 @@
     {{#if post }}
         <header class="container-fluid">
 
-            <div class="cover-image" style="background-image:{{post.cover}}; background-position:{{post.coverPosition}}"></div>
+            <div class="cover-image" style="background-image:url({{post.cover}}); background-position:{{post.coverPosition}}"></div>
             <div class="header-title">
                 <h1><span id="title" >{{post.title}}</span></h1>
                 <h2><span id="subtitle">{{post.subtitle}}</span></h2>
@@ -32,17 +32,17 @@
     {{else}}
         <header class="container-fluid">
             {{#if currentUser}}
-            <div class="cover-image upload has-image" style="background-image:{{blog.cover.value}};background-position:{{blog.coverPosition.value}}"><div class="dropzone"></div></div>
+            <div class="cover-image upload has-image" style="background-image:url({{blogOptions 'blog_cover'}});background-position:{{blogOptions 'blog_coverPosition'}}"><div class="dropzone"></div></div>
             {{else}}
             <div class="cover-image" style="background-image: {{blog.cover.value}};background-position:{{blog.coverPosition.value}}"></div>
             {{/if}}
             <div class="header-title">
                 {{#if currentUser}}
-                <h1><span contenteditable="true" id="blog_title">{{{blog.title.value}}}</span></h1>
-                <h2><span contenteditable="true" id="blog_subtitle">{{{blog.subtitle.value}}}</span></h2>
+                <h1><span contenteditable="true" id="blog_title">{{{blogOptions 'blog_title'}}}</span></h1>
+                <h2><span contenteditable="true" id="blog_subtitle">{{{blogOptions 'blog_subtitle'}}}</span></h2>
                 {{else}}
-                <h1><span>{{{blog.title.value}}}</span></h1>
-                <h2><span>{{{blog.subtitle.value}}}</span></h2>
+                <h1><span>{{{blogOptions 'blog_title'}}}</span></h1>
+                <h2><span>{{{blogOptions 'blog_subtitle'}}}</span></h2>
                 {{/if}}
             </div>
         </header>

@@ -5,9 +5,6 @@ Router.map(function() {
             return Meteor.subscribe('posts');
         },
         data: function(){
-
-
-
             var posts = [];
             if(Meteor.user()){
                 posts = Posts.find({$or:[{"author": Meteor.user()._id}, {"status": "publish"}]}, {sort:[['date', 'desc']]});
@@ -16,45 +13,89 @@ Router.map(function() {
             }
 
 
+            var showOnHome = Preferences.findOne('show_on_home');
 
+            var data = {
+                posts: posts
+
+            };
+            var post = null;
+            if(showOnHome && showOnHome.value == 'single') {
+                data['post'] = Posts.findOne({"status": "publish"}, {sort:[['date', 'desc']]});
+                if(Meteor.user()){
+                    data['posts'] = Posts.find({"author": Meteor.user()._id}, {sort:[['date', 'desc']]});
+                }
+                data['author'] = Meteor.users.findOne(data['post'].author);
+            }
+
+            return data;
+        },
+        onAfterAction: function() {
+            var post;
+            // The SEO object is only available on the client.
+            // Return if you define your routes on the server, too.
+            if (!Meteor.isClient) {
+                return;
+            }
+            var blog = this.data().blog;
+            SEO.set({
+                title: blog.title.value,
+                meta: {
+                    'description': blog.subtitle.value
+                },
+                og: {
+                    'title': blog.title.value,
+                    'description': blog.subtitle.value,
+                    'image': window.location.protocol+'//'+window.location.hostname +'/'+ blog.cover.value
+                }
+            });
+        }
+    });
+    this.route('about');
+    this.route('not_found', {
+        data: function(){
+            var showOnHome = Preferences.findOne('show_on_home');
             var blog = {
                 title: Preferences.findOne('blog_title'),
                 subtitle: Preferences.findOne('blog_subtitle'),
                 cover: Preferences.findOne('blog_cover'),
                 coverPosition: Preferences.findOne('blog_coverPosition'),
-                showOnHome: Preferences.findOne('show_on_home')
+                showOnHome: showOnHome
             };
-
-            console.log('blog options', blog);
-
             return {
-                posts: posts,
                 blog: blog
             }
         }
     });
-    this.route('about');
     this.route('post', {
-        path: '/posts/:_id',
+        path: '/posts/:slug',
         waitOn: function () {  // wait for the subscription to be ready; see below
             return Meteor.subscribe('posts');
         },
         data: function(){
             var params = this.params;
-            console.log(params);
+
             var post;
             if(Meteor.user()) {
-                post = Posts.findOne({"_id":this.params._id, $or:[{"status": 'publish'}, {"author": Meteor.user()._id}]});
+                post = Posts.findOne({"slug":this.params.slug, $or:[{"status": 'publish'}, {"author": Meteor.user()._id}]});
             } else {
-                post = Posts.findOne({"_id":this.params._id, "status": 'publish'});
+                post = Posts.findOne({"slug":this.params.slug, "status": 'publish'});
             }
 
-            var author = Meteor.users.findOne(post.author);
+            if(post == null) {
 
-            return {
-                post: post,
-                author: author
+                Router.go('not_found');
+                //show notfound template
+            } else {
+                var author = Meteor.users.findOne(post.author);
+
+                return {
+                    post: post,
+                    author: author
+                }
             }
+
+
         },
         onAfterAction: function() {
             var post;
@@ -80,7 +121,18 @@ Router.map(function() {
 
     this.route('create_post', {
         path: '/admin/create',
-        isAdmin: true
+        isAdmin: true,
+        onAfterAction: function() {
+            var post;
+
+            if (!Meteor.isClient) {
+                return;
+            }
+
+            SEO.set({
+                title: 'Write a new post'
+            });
+        }
 
     });
     this.route('preferences', {
@@ -96,7 +148,6 @@ Router.map(function() {
                 },
                 isAdmin: true
             };
-            console.log(d);
             return d;
         }
 
@@ -112,6 +163,18 @@ Router.map(function() {
                 post: Posts.findOne({'author': Meteor.user()._id, '_id': this.params._id}),
                 isAdmin: true
             };
+        },
+        onAfterAction: function() {
+            var post;
+            // The SEO object is only available on the client.
+            // Return if you define your routes on the server, too.
+            if (!Meteor.isClient) {
+                return;
+            }
+            post = this.data().post;
+            SEO.set({
+                title: 'Editing post '+post.title
+            });
         }
 
     });
@@ -130,12 +193,8 @@ Router.onBeforeAction(function() {
 
     if (Meteor.loggingIn()) {
         this.render('loading');
-        //pause();
     } else if (!Meteor.user()) {
-        console.log('no user');
         Router.go('home');
-        //pause();
     }
-    //pause();
 
 }, {only: ['admin', 'create_post', 'preferences']});

@@ -44,5 +44,13 @@ if(Meteor.isClient) {
         return (post && post.status && post.status == 'draft');
     });
 
+    UI.registerHelper('blogOptions', function(which){
+        var pref = Preferences.findOne(which);
+        if(pref) {
+            return pref.value;
+        }
+        return '';
+    });
+
     UI.registerHelper('ifRouteIs', function (routeName) { return Router.current().route.name === routeName; });
 }
